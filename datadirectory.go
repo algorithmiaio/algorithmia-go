@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/mitchellh/mapstructure"
+	"github.com/algorithmiaio/mapstructure"
 )
 
 func getUrl(p string) string {

@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	algorithmia "github.com/algebraic-brain/algorithmia-go"
+	"github.com/algorithmiaio/algorithmia-go"
 )
 
 /*
-Here we just check that README.md examples have no comilation errors and do not panic
+Here we just check that README.md examples have no compilation errors and do not panic
 */
 
 var apiKey = os.Getenv("ALGORITHMIA_API_KEY")

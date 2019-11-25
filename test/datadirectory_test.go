@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	algorithmia "github.com/algebraic-brain/algorithmia-go"
+	"github.com/algorithmiaio/algorithmia-go"
 )
 
 var client2 = algorithmia.NewClient(os.Getenv("ALGORITHMIA_API_KEY"), "")

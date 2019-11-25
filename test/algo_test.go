@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	algorithmia "github.com/algebraic-brain/algorithmia-go"
+	"github.com/algorithmiaio/algorithmia-go"
 )
 
 func TestAlgo(t *testing.T) {

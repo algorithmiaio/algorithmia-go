@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/mitchellh/mapstructure"
+	"github.com/algorithmiaio/mapstructure"
 )
 
 type Err struct {
