@@ -13,4 +13,3 @@ test:
   script:
   - if [ -z $ALGORITHMIA_DEFAULT_API_KEY ]; then echo "Algorithmia API key not defined"; exit 1; fi
   - go test
-  
