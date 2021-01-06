@@ -9,7 +9,7 @@ import (
 )
 
 func TestAlgo(t *testing.T) {
-	c := algorithmia.NewClient(os.Getenv("ALGORITHMIA_API_KEY"), "")
+	c := algorithmia.NewClient(os.Getenv("ALGORITHMIA_DEFAULT_API_KEY"), "")
 	algo, err := c.Algo("algo://demo/Hello")
 	if err != nil {
 		t.Fatal(err)

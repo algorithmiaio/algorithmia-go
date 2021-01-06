@@ -9,7 +9,7 @@ import (
 )
 
 func TestDataFile(t *testing.T) {
-	client := algorithmia.NewClient(os.Getenv("ALGORITHMIA_API_KEY"), "")
+	client := algorithmia.NewClient(os.Getenv("ALGORITHMIA_DEFAULT_API_KEY"), "")
 	remoteFile := client.File("data://.my/nonexistant/nonreal")
 	f, err := remoteFile.File()
 	if err == nil {

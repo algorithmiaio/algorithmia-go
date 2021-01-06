@@ -9,7 +9,7 @@ import (
 	"github.com/algorithmiaio/algorithmia-go"
 )
 
-var client1 = algorithmia.NewClient(os.Getenv("ALGORITHMIA_API_KEY"), "")
+var client1 = algorithmia.NewClient(os.Getenv("ALGORITHMIA_DEFAULT_API_KEY"), "")
 
 func TestListFilesWithPaging(t *testing.T) {
 	const (

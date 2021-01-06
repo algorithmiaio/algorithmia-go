@@ -7,7 +7,7 @@ import (
 	"github.com/algorithmiaio/algorithmia-go"
 )
 
-var client2 = algorithmia.NewClient(os.Getenv("ALGORITHMIA_API_KEY"), "")
+var client2 = algorithmia.NewClient(os.Getenv("ALGORITHMIA_DEFAULT_API_KEY"), "")
 
 type some interface{}
 

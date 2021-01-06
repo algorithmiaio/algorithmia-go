@@ -13,7 +13,7 @@ import (
 Here we just check that README.md examples have no compilation errors and do not panic
 */
 
-var apiKey = os.Getenv("ALGORITHMIA_API_KEY")
+var apiKey = os.Getenv("ALGORITHMIA_DEFAULT_API_KEY")
 var client = algorithmia.NewClient(apiKey, "")
 
 func Test1(t *testing.T) {
